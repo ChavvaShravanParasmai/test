@@ -174,13 +174,21 @@ body{
 }
 
 /****************queries**************************/
-
+/* @media (min-width: 70em){
+  .view{
+    width: 60rem;
+  }
+  .primary-heading{
+    font-size: 8rem;
+  }
+} */
 
 /****************590 PX Screen**************************/
 @media (max-width: 59em){
   .view{
-    margin: 8rem auto 0 auto;
+    margin: 10rem auto 0 auto;
     width: 40rem;
+    overflow: hidden;
   }
   /****************Web Dev details**************************/
   .dev-details{
@@ -189,20 +197,20 @@ body{
     margin-top: 5rem;
   }
   .primary-heading{
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
   .secondary-heading{
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
   .buttons{
     text-align: center;
     margin-top: 2.4rem;
   }
   .contact-btn:link,.contact-btn:visited{
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   .work-btn:link, .work-btn:visited{
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   /****************Web Dev photo**************************/
   .dev-img{
