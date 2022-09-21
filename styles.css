@@ -175,4 +175,49 @@ body{
 
 /****************queries**************************/
 
-
+@media (max-width: 35em){
+  html{
+    font-size: 50%;
+  }
+  .view{
+    width: 40rem;
+    margin: 5rem auto 0;
+  }
+  /**********Dev photo**********/
+  .dev-photo{
+    float: none;
+    text-align: center;
+  }
+  .dev-img{
+    width: 25rem;
+    height: 25rem;
+  }
+  .dev-photo-box::before{
+    width: 25rem;
+    height: 25rem;
+    top: 3rem;
+    right: 2rem;
+  }
+  /**********Dev details**********/
+  .dev-details{
+    float: none;
+    text-align: center;
+    margin-top: 6rem;
+  }
+  .primary-heading{
+    font-size: 4.8rem;
+  }
+  .secondary-heading{
+    font-size: 2.3rem;
+  }
+  .buttons{
+    margin-top: 3rem;
+  }
+  .contact-btn:link,.contact-btn:visited{
+    font-size: 1.5rem;
+  }
+  
+  .work-btn:link, .work-btn:visited{
+    font-size: 1.5rem;
+  }
+}
