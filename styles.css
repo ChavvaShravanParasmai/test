@@ -182,7 +182,7 @@ body{
   }
   .view{
     width: 40rem;
-    margin: 25rem auto 0;
+    margin: 22rem auto 0;
   }
   /**********Dev photo**********/
   .dev-photo{
@@ -190,14 +190,14 @@ body{
     text-align: center;
   }
   .dev-img{
-    width: 25rem;
-    height: 25rem;
+    width: 28rem;
+    height: 28rem;
   }
   .dev-photo-box::before{
-    width: 25rem;
-    height: 25rem;
+    width: 28rem;
+    height: 28rem;
     top: 3rem;
-    right: 2rem;
+    right: 1rem;
   }
   /**********Dev details**********/
   .dev-details{
@@ -206,10 +206,10 @@ body{
     margin-top: 6rem;
   }
   .primary-heading{
-    font-size: 4.8rem;
+    font-size: 5rem;
   }
   .secondary-heading{
-    font-size: 2.3rem;
+    font-size: 2.4rem;
   }
   .buttons{
     margin-top: 3rem;
