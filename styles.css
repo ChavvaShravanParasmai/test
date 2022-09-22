@@ -178,10 +178,11 @@ body{
 @media (max-width: 35em){
   html{
     font-size: 50%;
+    overflow: hidden;
   }
   .view{
     width: 40rem;
-    margin: 5rem auto 0;
+    margin: 10rem auto 0;
   }
   /**********Dev photo**********/
   .dev-photo{
