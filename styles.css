@@ -174,7 +174,55 @@ body{
 }
 
 /****************queries**************************/
+/**********560 pixels**********/
+@media (max-width: 56rem){
+  html{
+    font-size: 62.5%;
+    overflow: hidden;
+  }
+  .view{
+    margin: 10rem auto 0;
+    width: 40em;
+  }
+  /**********Dev photo**********/
+  .dev-photo{
+    float: none;
+    text-align: center;
+  }
+  .dev-img{
+    width: 28rem;
+    height: 28rem;
+  }
+  .dev-photo-box::before{
+    width: 28rem;
+    height: 28rem;
+    top: 3rem;
+    right: 1rem;
+  }
+  /**********Dev details**********/
+  .dev-details{
+    float: none;
+    text-align: center;
+    margin-top: 6rem;
+  }
+  .primary-heading{
+    font-size: 4.4rem;
+  }
+  .secondary-heading{
+    font-size: 2rem;
+  }
+  .buttons{
+    margin-top: 2.5rem;
+  }
+  .contact-btn:link,.contact-btn:visited{
+    font-size: 1.5rem;
+  }
+  .work-btn:link, .work-btn:visited{
+    font-size: 1.5rem;
+  }
+}
 
+/**********350 pixels**********/
 @media (max-width: 35em){
   html{
     font-size: 50%;
@@ -222,3 +270,4 @@ body{
     font-size: 1.5rem;
   }
 }
+
