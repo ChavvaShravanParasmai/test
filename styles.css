@@ -13,7 +13,7 @@
 /*color-secondary: #DCAA85*/
 
 
-@media(max-width: 80em){
+
   *{
     padding: 0;
     margin: 0;
@@ -29,9 +29,12 @@
     font-family: 'Montserrat', sans-serif;
   }
   
-  .view{
-    max-width: 100rem;
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
     margin: 15rem auto;
+    max-width: 100rem;
   }
   
   /****************special**************************/
@@ -62,7 +65,6 @@
   /****************Web Dev details**************************/
   
   .dev-details{
-    float: left;
     margin-top: 7rem;
   }
   
@@ -116,8 +118,7 @@
   /****************Web Dev photo**************************/
   
   .dev-photo{
-    float: right;
-    margin-right: 4rem;
+    margin-left: 5rem;
   }
   
   .dev-photo-box{
@@ -134,7 +135,7 @@
       content: "";
       position: absolute;
       top: 4rem;
-      right: -4rem;
+      right: 4rem;
       z-index: -1;
       width: 35rem;
       height: 35rem;
@@ -172,14 +173,14 @@
     color: #F1CEB4;
     padding: 2.4rem 3rem 3rem;
   }
-}
+
 
 
 /****************queries**************************/
 
 
 /**********560 pixels**********/
-@media (max-width: 56em){
+/* @media (max-width: 56em){
   html{
     font-size: 62.5%;
     overflow: hidden;
@@ -187,9 +188,9 @@
   .view{
     margin: 10rem auto 0;
     width: 40em;
-  }
+  } */
   /**********Dev photo**********/
-  .dev-photo{
+  /* .dev-photo{
     float: none;
     text-align: center;
   }
@@ -202,9 +203,9 @@
     height: 28rem;
     top: 3rem;
     right: 1rem;
-  }
+  } */
   /**********Dev details**********/
-  .dev-details{
+  /* .dev-details{
     float: none;
     text-align: center;
     margin-top: 6rem;
@@ -224,7 +225,7 @@
   .work-btn:link, .work-btn:visited{
     font-size: 1.5rem;
   }
-}
+} */
 
 /**********350 pixels**********/
 @media (max-width: 35em){
@@ -232,7 +233,9 @@
     font-size: 50%;
     overflow: hidden;
   }
-  .view{
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr;
     width: 40rem;
     margin: 16rem auto 0;
   }
